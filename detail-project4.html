@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detail Project | Kejuaraan Tingkat Provinsi 2024</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="dist/css/final.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body class="bg-slate-100 text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-xl md:text-2xl font-semibold text-gray-800">📁 Detail Proyek</h1>
+    </div>
+  </header>
+
+  <!-- Konten Utama -->
+  <main class="px-4 py-10">
+
+      <!-- Gambar -->
+      <div class="rounded-lg overflow-hidden shadow-md w-[80%] mx-auto">
+        <iframe
+        src="img/Logo%20Desa%20Kepoh%20oleh%20Abimanyu.pdf"
+        width="100%"
+        height="100%"
+        style="aspect-ratio: 16/9; border: none;">
+      </iframe>
+    </div>
+    
+    <!-- Konten Teks -->
+    <div class="space-y-6 text-left">
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Design Logo Desa Kepoh Tahun 2024</h2>
+        <br>
+        <p class="text-base text-gray-700 leading-relaxed">
+          Ini hasil design saya di sayembara pembuatan logo Desa Kepoh pada 2024
+          lalu dan menempati urutan ke 4 dari 7 peserta yang mengikuti dari seluruh daerah di Bangka Selatan
+        </p>
+        <p class="text-base text-gray-600 leading-relaxed">
+            
+        </p>
+        <br>
+    </div>
+</main>
+
+
+<!-- DOKUMENTASI PESERTA -->
+<section id="portofolio" class="bg-slate-100 pt-36 pb-16 dark:bg-slate-800">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="mx-auto mb-16 max-w-xl text-center">
+              <h4 class="mb-2 text-lg font-semibold text-primary"></h4>
+              <h2
+              class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl"
+              >
+              Dokumentasi Peserta Saat Pembagian Hadiah
+            </h2>
+            <p class="text-md font-medium text-secondary md:text-lg">
+                Di bagikan langsung oleh Wakil Bupati Bangka Selatan<br>
+                Ibu Debby Vita Dewi
+            </p>
+        </div>
+    </div>
+    
+    <!-- juara 2 lks web -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/IMG-20240728-WA0011.jpg" /></div>
+            <div class="swiper-slide"><img src="img/IMG-20240728-WA0013.jpg" /></div>
+            <div class="swiper-slide"><img src="img/IMG-20240728-WA0036.jpg" /></div>
+            <div class="swiper-slide"><img src="img/IMG-20240728-WA0038.jpg" /></div>
+            <div class="swiper-slide"><img src="img/IMG-20240728-WA0042.jpg" /></div>
+            
+            
+        </div>
+        <!-- Navigasi -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <a href="index.html#portofolio" class="inline-block mt-4 px-6 py-2 bg-primary text-white rounded-full hover:bg-opacity-90 transition">
+        ← Kembali
+    </a>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+          <script>
+            const swiper = new Swiper('.mySwiper', {
+              loop: true,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              autoplay: {
+                delay: 4000,
+              },
+            });
+          </script>
+          
+
+
+
+
+</body>
+</html>
